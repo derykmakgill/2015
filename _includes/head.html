@@ -11,9 +11,9 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
   <meta property="og:description" content="{% if page.excerpt %}{{ page.content | strip_html | strip_newlines | truncatewords: 160 }}{% else %}{{ site.description }}{% endif %}" />
   {% if page.image %}
-  <meta property="og:image" content="{{ site.url }}/assets/image/{{ page.image }}" />
+  <meta property="og:image" content="{{ site.url }}/2015/assets/image/{{ page.image }}" />
   {% else %}
-  <meta property="og:image" content="{{ site.url }}/assets/profile.jpg" />
+  <meta property="og:image" content="{{ site.url }}/2015/assets/profile.jpg" />
   {% endif %}
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:locale" content="ko_KR" />
@@ -50,13 +50,13 @@
   <link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
   <link rel='stylesheet' id='genericons-css'  href="{{ "/genericons/genericons.css" | prepend: site.baseurl | prepend: site.url }}" type='text/css' media='all' />
   <link rel='stylesheet' id='twentyfifteen-style-css' href="{{ "/css/style.css" | prepend: site.baseurl | prepend: site.url }}" type='text/css' media='all' />
-  <link rel='stylesheet' href="{{ "/css/syntax.css" | prepend: site.baseurl | prepend: site.url }}" type='text/css' />
+  <link rel='stylesheet' href="{{ "/2015/css/syntax.css" | prepend: site.baseurl | prepend: site.url }}" type='text/css' />
   <!--[if lt IE 9]>
   <link rel='stylesheet' id='twentyfifteen-ie-css' href="{{ "css/ie.css" | prepend: site.baseurl | prepend: site.url }}" type='text/css' media='all' />
   <![endif]-->
   <!--[if lt IE 8]>
   <link rel='stylesheet' id='twentyfifteen-ie7-css'  href="{{ "css/ie7.css" | prepend: site.baseurl | prepend: site.url }}" type='text/css' media='all' />
   <![endif]-->
-  <script type='text/javascript' src="{{ "/js/jquery/jquery.js" | prepend: site.baseurl | prepend: site.url }}"></script>
-  <script type='text/javascript' src="{{ "/js/jquery/jquery-migrate.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+  <script type='text/javascript' src="{{ "/2015/js/jquery/jquery.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+  <script type='text/javascript' src="{{ "/2015/js/jquery/jquery-migrate.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
 </head>
